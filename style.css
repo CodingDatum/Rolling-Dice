@@ -1,0 +1,80 @@
+/* TAGS */
+*{
+    box-sizing: border-box;
+    text-align:center;
+}
+
+body{
+    background: radial-gradient(grey, lightgrey);
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: bold;
+    color:blueviolet;
+    text-shadow: 3px 3px 3px teal;
+}
+
+footer{
+    margin-top: 500px;
+}
+
+/* CLASSES */
+
+.container{
+    padding: 2%;
+    background-color:rgb(17, 1, 87);
+    border-radius: 15%;
+    box-shadow: 5px 5px 5px black;
+    margin-top:2%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.scoreboard{
+    margin: 1% auto;
+    padding: 10px;
+    background: linear-gradient(lightyellow, yellow);
+    color:black;
+    width: 80%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.score{
+    font-size: 24px;
+    padding: 5px;
+    font-weight:bold;
+}
+
+.dice-table{
+    display:flex;
+    justify-content:center;
+    background-color: white;
+    margin:2%;
+    background: none;
+}
+
+.dice-space{
+    padding:2%;
+}
+
+/* IDS */
+
+#dice1{
+    width:20%;
+
+}
+#dice2{
+    width:20%;
+}
+
+#pic1, #pic2{
+
+    width: 20%;
+    background-color: rgba(160,160,160,50%);
+    border-radius: 100%;
+    padding:15px;
+
+}
